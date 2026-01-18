@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="Branding">
+  <h1>WORK</h1>
+
+  <div class="grid">
+
+    <!-- NORMAL CARD -->
+    <div class="card">
+      <h2>Matte Painting</h2>
+      <p>Cinema 4D & Photoshop</p>
+      <img src="s.png">
+    </div>
+
+    <!-- CARD WITH CAROUSEL -->
+    <div class="card">
+      <h2>Brand Campaign</h2>
+      <p>Visual Identity</p>
+
+      <div class="carousel" data-carousel>
+        <div class="track">
+          <img src="screennshot.png">
+          <img src="image.png">
+          <img src="screennshot.png">
+        </div>
+        <button class="nav prev">‹</button>
+        <button class="nav next">›</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FULLSCREEN -->
+<div class="fullscreen" id="fullscreen">
+  <span class="close">×</span>
+  <div class="fullscreen-content"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

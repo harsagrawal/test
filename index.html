@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsh Agarwal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="theme-toggle" class="theme-toggle">◑</button>
+
+<div class="info-overlay">
+  <div>ROTATION: <span id="debug-rot">0</span>°</div>
+  <div>MODE: <span id="debug-mode">BUILD</span></div>
+</div>
+
+<div class="scene-container">
+  <div id="scene-root" class="scene-root">
+
+    <div class="floor">
+      <div class="floor-text">HARSH</div>
+      <div class="floor-grid"></div>
+    </div>
+
+    <div id="word-wrapper" class="word-wrapper">
+      <div id="click-hint" class="click-hint">[ CLICK TO OPEN ]</div>
+      <div id="main-word" class="main-word">CREATIVE</div>
+      <div id="particle-system" class="particle-system"></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="ui-container">
+  <button id="btn-break" class="btn btn-break">[ Break for More ]</button>
+
+  <div id="rebuild-menu" class="rebuild-menu hidden">
+    <button class="btn btn-option" data-word="CREATIVE">CREATIVE</button>
+    <button class="btn btn-option" data-word="BRAND IDENTITY">BRAND IDENTITY</button>
+    <button class="btn btn-option" data-word="PRINT & PACKAGING">PRINT & PACKAGING</button>
+  </div>
+
+  <div id="status-msg" class="status-msg hidden">RECONSTRUCTING...</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
