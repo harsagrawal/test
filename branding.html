@@ -2,48 +2,138 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Portfolio</title>
-<link rel="stylesheet" href="branding.css">
+<title>Portfolio – Work</title>
+<link rel="stylesheet" href="branding style.css">
 </head>
 <body>
 
 <section class="Branding">
-  <h1>WORK</h1>
+  <h1>LOGO</h1>
 
   <div class="grid">
 
-    <!-- NORMAL CARD -->
     <div class="card">
       <h2>Matte Painting</h2>
-      <p>Cinema 4D & Photoshop</p>
-      <img src="s.png">
-    </div>
+      <p>Crafting illusions with Cinema 4D & Photoshop</p>
+      <a href="Annual Calendar - January.pdf" target="_blank">
+        <img src="s.png" alt="Brochure Design">
+      </a>
 
-    <!-- CARD WITH CAROUSEL -->
-    <div class="card">
-      <h2>Brand Campaign</h2>
-      <p>Visual Identity</p>
-
-      <div class="carousel" data-carousel>
-        <div class="track">
-          <img src="screennshot.png">
-          <img src="image.png">
-          <img src="screennshot.png">
-        </div>
-        <button class="nav prev">‹</button>
-        <button class="nav next">›</button>
+      <div class="tags">
+        <span>Photoshop</span>
+        <span>Cinema 4D</span>
+        <span>Digital Painting</span>
       </div>
     </div>
+
+  <div class="card">
+    <h2>Brand Campaign</h2>
+    <p>Visual identity rollout</p>
+
+  <div class="carousel">
+    <div class="track">
+      <img src="screennshot.png">
+      <img src="image.png">
+      <img src="screennshot.png">
+    </div>
+
+    <button class="nav prev">‹</button>
+    <button class="nav next">›</button>
+  </div>
+
+
+  <div class="tags">
+    <span>Branding</span>
+    <span>Social Media</span>
+  </div>
+</div>
+
+
+    <div class="card">
+      <h2>Font Design</h2>
+      <p>7-segment & 23-segment font for Ola S1X</p>
+      <img src="images/font.jpg">
+      <div class="tags">
+        <span>Research</span>
+        <span>Font Study</span>
+        <span>FontForge</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Illustrations</h2>
+      <p>Digital & Print Illustration Collection</p>
+      <img src="images/illustration.jpg">
+      <div class="tags">
+        <span>Photoshop</span>
+        <span>Illustrator</span>
+        <span>Sketching</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Matte Painting</h2>
+      <p>Crafting illusions with Cinema 4D & Photoshop</p>
+      <img src="images/matte.jpg">
+      <div class="tags">
+        <span>Photoshop</span>
+        <span>Cinema 4D</span>
+        <span>Digital Painting</span>
+      </div>
+    </div>
+
+    <div class="link">
+      <h1>CREATIVE
+      <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+        <path d="M354.4 83.8C359.4 71.8 371.1 64 384 64L544 64C561.7 64 576 78.3 576 96L576 256C576 268.9 568.2 280.6 556.2 285.6C544.2 290.6 530.5 287.8 521.3 278.7L464 221.3L310.6 374.6C298.1 387.1 277.8 387.1 265.3 374.6C252.8 362.1 252.8 341.8 265.3 329.3L418.7 176L361.4 118.6C352.2 109.4 349.5 95.7 354.5 83.7zM64 240C64 195.8 99.8 160 144 160L224 160C241.7 160 256 174.3 256 192C256 209.7 241.7 224 224 224L144 224C135.2 224 128 231.2 128 240L128 496C128 504.8 135.2 512 144 512L400 512C408.8 512 416 504.8 416 496L416 416C416 398.3 430.3 384 448 384C465.7 384 480 398.3 480 416L480 496C480 540.2 444.2 576 400 576L144 576C99.8 576 64 540.2 64 496L64 240z"/></svg>
+      </h1>
+
+      <h1>PRINT & PACKAGING
+      <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+        <path d="M354.4 83.8C359.4 71.8 371.1 64 384 64L544 64C561.7 64 576 78.3 576 96L576 256C576 268.9 568.2 280.6 556.2 285.6C544.2 290.6 530.5 287.8 521.3 278.7L464 221.3L310.6 374.6C298.1 387.1 277.8 387.1 265.3 374.6C252.8 362.1 252.8 341.8 265.3 329.3L418.7 176L361.4 118.6C352.2 109.4 349.5 95.7 354.5 83.7zM64 240C64 195.8 99.8 160 144 160L224 160C241.7 160 256 174.3 256 192C256 209.7 241.7 224 224 224L144 224C135.2 224 128 231.2 128 240L128 496C128 504.8 135.2 512 144 512L400 512C408.8 512 416 504.8 416 496L416 416C416 398.3 430.3 384 448 384C465.7 384 480 398.3 480 416L480 496C480 540.2 444.2 576 400 576L144 576C99.8 576 64 540.2 64 496L64 240z"/></svg>
+      </h1>
+    </div>
+
+
 
   </div>
 </section>
 
-<!-- FULLSCREEN -->
-<div class="fullscreen" id="fullscreen">
-  <span class="close">×</span>
-  <div class="fullscreen-content"></div>
-</div>
+<script>
+document.querySelectorAll(".carousel").forEach(carousel=>{
+  const track = carousel.querySelector(".track");
+  const slides = track.children;
+  const prev = carousel.querySelector(".prev");
+  const next = carousel.querySelector(".next");
 
-<script src="branding.js"></script>
+  let index = 0;
+  let startX = 0;
+  let currentX = 0;
+  let dragging = false;
+
+  function update(){
+    track.style.transform = `translateX(-${index*100}%)`;
+  }
+
+  next.onclick = ()=>{ if(index<slides.length-1){ index++; update(); }};
+  prev.onclick = ()=>{ if(index>0){ index--; update(); }};
+
+  carousel.addEventListener("touchstart",e=>{
+    startX = e.touches[0].clientX;
+  });
+
+  carousel.addEventListener("touchend",e=>{
+    currentX = e.changedTouches[0].clientX;
+    const diff = currentX - startX;
+    if(diff > 50 && index>0) index--;
+    if(diff < -50 && index<slides.length-1) index++;
+    update();
+  });
+});
+</script>
+
+
+<script src="branding script.js"></script>
+
 </body>
 </html>
