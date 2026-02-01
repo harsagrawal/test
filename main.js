@@ -15,7 +15,7 @@ const CONFIG = {
     },
     "BRAND IDENTITY": {
       color: "#0284C7",
-      url: "logo.html"
+      url: "branding.html"
     },
     "PRINT & PACKAGING": {
       color: "#D97706",
